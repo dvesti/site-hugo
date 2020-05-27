@@ -132,7 +132,7 @@ $$
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Strong&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;**Strong**&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt; &amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
@@ -236,7 +236,7 @@ And then define the link:
 &lt;h2 id=&#34;underline&#34;&gt;Underline&lt;/h2&gt;
 &lt;p&gt;Underline is powered by raw HTML.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&amp;lt;u&amp;gt;Underline&amp;lt;/u&amp;gt;&lt;/code&gt; becomes &lt;!-- raw HTML omitted --&gt;Underline&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;emoji-happy&#34;&gt;Emoji :happy:&lt;/h2&gt;
+&lt;h2 id=&#34;emoji-happy&#34;&gt;Emoji :happy&lt;/h2&gt;
 &lt;p&gt;Input emoji with syntax &lt;code&gt;😄&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;User can trigger auto-complete suggestions for emoji by pressing &lt;code&gt;ESC&lt;/code&gt; key, or trigger it automatically after enable it on preference panel. Also, input UTF8 emoji char directly from &lt;code&gt;Edit&lt;/code&gt; -&amp;gt; &lt;code&gt;Emoji &amp;amp; Symbols&lt;/code&gt; from menu bar is also supported.&lt;/p&gt;
 &lt;h2 id=&#34;inline-math&#34;&gt;Inline Math&lt;/h2&gt;
@@ -584,7 +584,7 @@ $$&lt;/p&gt;</description>
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;This is a quote from Author4 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt;.&lt;/p&gt;
+  &lt;p&gt;This is a quote from Author4 and links to &lt;a href=&#34;https://www.google.com.&#34;&gt;https://www.google.com.&lt;/a&gt;&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;Author4&lt;/strong&gt;
     
@@ -2936,7 +2936,7 @@ you are reading right now.&lt;/p&gt;
 &lt;li&gt;Clone the &lt;a href=&#34;http://github.com/spf13/hugo&#34;&gt;hugo repository&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Go into the repo&lt;/li&gt;
 &lt;li&gt;Run hugo in server mode and build the docs&lt;/li&gt;
-&lt;li&gt;Open your browser to http://localhost:1313&lt;/li&gt;
+&lt;li&gt;Open your browser to &lt;a href=&#34;http://localhost:1313&#34;&gt;http://localhost:1313&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Corresponding pseudo commands:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;git clone https://github.com/spf13/hugo
@@ -3369,8 +3369,8 @@ $
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// The supported styles are
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;//
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// - &amp;#34;Go&amp;#34; (strings.Title)
-&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// - &amp;#34;AP&amp;#34; (see https://www.apstylebook.com/)
-&lt;/span&gt;&lt;span style=&#34;display:block;width:100%;background-color:#3c3d38&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// - &amp;#34;Chicago&amp;#34; (see http://www.chicagomanualofstyle.org/home.html)
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// - &amp;#34;AP&amp;#34; (see &amp;lt;https://www.apstylebook.com/)&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;display:block;width:100%;background-color:#3c3d38&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// - &amp;#34;Chicago&amp;#34; (see &amp;lt;http://www.chicagomanualofstyle.org/home.html)&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;//
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// If an unknown or empty style is provided, AP style is what you get.
 &lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;GetTitleFunc&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;style&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;s&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; {
