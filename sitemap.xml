@@ -3,11 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dvesti.github.io/site-hugo/fixed/about/</loc>
+    <loc>https://dvesti.github.io/site-hugo/categories/</loc>
+    <lastmod>2020-05-14T18:05:23+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/site-hugo/fixed/altab/</loc>
+    <loc>https://dvesti.github.io/site-hugo/categories/news/</loc>
+    <lastmod>2020-05-14T18:05:23+03:00</lastmod>
   </url>
   
   <url>
@@ -16,7 +18,12 @@
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/site-hugo/post/2020-05-14-privet/</loc>
+    <loc>https://dvesti.github.io/site-hugo/tags/</loc>
+    <lastmod>2020-05-14T18:05:23+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/tags/test/</loc>
     <lastmod>2020-05-14T18:05:23+03:00</lastmod>
   </url>
   
@@ -26,8 +33,8 @@
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/site-hugo/post/2020-05-13-a/</loc>
-    <lastmod>2020-05-13T02:04:31+03:00</lastmod>
+    <loc>https://dvesti.github.io/site-hugo/post/2020-05-14-privet/</loc>
+    <lastmod>2020-05-14T18:05:23+03:00</lastmod>
   </url>
   
   <url>
@@ -51,19 +58,17 @@
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/site-hugo/fixed/mpage/</loc>
+    <loc>https://dvesti.github.io/site-hugo/about/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/site-hugo/categories/</loc>
+    <loc>https://dvesti.github.io/site-hugo/archives/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/site-hugo/fixed/</loc>
-  </url>
-  
-  <url>
-    <loc>https://dvesti.github.io/site-hugo/tags/</loc>
+    <loc>https://dvesti.github.io/site-hugo/series/</loc>
   </url>
   
 </urlset>
