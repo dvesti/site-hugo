@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on oguH Hugo</title>
+    <title>Categories on Jane - A super concise theme for Hugo</title>
     <link>https://dvesti.github.io/site-hugo/categories/</link>
-    <description>Recent content in Categories on oguH Hugo</description>
+    <description>Recent content in Categories on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru</language>
-    <copyright>Dvesti</copyright>
+    <language>en</language>
     <lastBuildDate>Thu, 14 May 2020 18:05:23 +0300</lastBuildDate>
     
 	<atom:link href="https://dvesti.github.io/site-hugo/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -51,7 +50,7 @@
     <item>
       <title>shortcodes</title>
       <link>https://dvesti.github.io/site-hugo/categories/shortcodes/</link>
-      <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
+      <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
       
       <guid>https://dvesti.github.io/site-hugo/categories/shortcodes/</guid>
       <description></description>
