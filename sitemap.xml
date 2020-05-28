@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://dvesti.github.io/site-hugo/post/jane-theme-preview.zh-cn/</loc>
-    <lastmod>2018-03-07T16:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://dvesti.github.io/site-hugo/post/jane-theme-preview/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -30,6 +23,13 @@
   </url>
   
   <url>
+    <loc>https://dvesti.github.io/site-hugo/</loc>
+    <lastmod>2020-05-14T18:05:23+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://dvesti.github.io/site-hugo/post/</loc>
     <lastmod>2020-05-14T18:05:23+03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -45,13 +45,6 @@
   
   <url>
     <loc>https://dvesti.github.io/site-hugo/tags/test/</loc>
-    <lastmod>2020-05-14T18:05:23+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://dvesti.github.io/site-hugo/</loc>
     <lastmod>2020-05-14T18:05:23+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
