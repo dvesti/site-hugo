@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<<<<<<< HEAD
-    <title>Tags on Мой Hugo сайт</title>
-    <link>https://dvesti.github.io/tags/</link>
-    <description>Recent content in Tags on Мой Hugo сайт</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ru-ru</language>
-=======
     <title>Tags on Jane - A super concise theme for Hugo</title>
     <link>https://dvesti.github.io/site-hugo/tags/</link>
     <description>Recent content in Tags on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 14 May 2020 18:05:23 +0300</lastBuildDate>
->>>>>>> 720369b26dde0c5fd2d9b16cf2206bd9467cb66c
     
-	<atom:link href="https://dvesti.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dvesti.github.io/site-hugo/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
-<<<<<<< HEAD
-=======
     <item>
       <title>Test</title>
       <link>https://dvesti.github.io/site-hugo/tags/test/</link>
@@ -58,20 +48,20 @@
     </item>
     
     <item>
+      <title>shortcodes</title>
+      <link>https://dvesti.github.io/site-hugo/tags/shortcodes/</link>
+      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://dvesti.github.io/site-hugo/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>image</title>
       <link>https://dvesti.github.io/site-hugo/tags/image/</link>
       <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
       
       <guid>https://dvesti.github.io/site-hugo/tags/image/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shortcodes</title>
-      <link>https://dvesti.github.io/site-hugo/tags/shortcodes/</link>
-      <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>https://dvesti.github.io/site-hugo/tags/shortcodes/</guid>
       <description></description>
     </item>
     
@@ -201,6 +191,5 @@
       <description></description>
     </item>
     
->>>>>>> 720369b26dde0c5fd2d9b16cf2206bd9467cb66c
   </channel>
 </rss>

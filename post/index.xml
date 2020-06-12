@@ -1,65 +1,88 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<<<<<<< HEAD
-    <title>Posts on Мой Hugo сайт</title>
-    <link>https://dvesti.github.io/post/</link>
-    <description>Recent content in Posts on Мой Hugo сайт</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ru-ru</language>
-=======
     <title>Posts on Jane - A super concise theme for Hugo</title>
     <link>https://dvesti.github.io/site-hugo/post/</link>
     <description>Recent content in Posts on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
->>>>>>> 720369b26dde0c5fd2d9b16cf2206bd9467cb66c
     <lastBuildDate>Thu, 14 May 2020 18:05:23 +0300</lastBuildDate>
     
-	<atom:link href="https://dvesti.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dvesti.github.io/site-hugo/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Privet</title>
-      <link>https://dvesti.github.io/post/2020-05-14-privet/</link>
+      <title>Jane 主题预览</title>
+      <link>https://dvesti.github.io/site-hugo/post/jane-theme-preview.zh-cn/</link>
+      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://dvesti.github.io/site-hugo/post/jane-theme-preview.zh-cn/</guid>
+      <description>主题预览,内容有待填充。</description>
+    </item>
+    
+    <item>
+      <title>Jane Theme Preview</title>
+      <link>https://dvesti.github.io/site-hugo/post/jane-theme-preview/</link>
+      <pubDate>Mon, 01 Jan 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://dvesti.github.io/site-hugo/post/jane-theme-preview/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is created by &lt;a href=&#34;http://daringfireball.net/&#34;&gt;Daring Fireball&lt;/a&gt;, the original guideline is &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;here&lt;/a&gt;. Its syntax, however, varies between different parsers or editors.&lt;/p&gt;
+&lt;p&gt;Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Приветствие</title>
+      <link>https://dvesti.github.io/site-hugo/post/2020-05-14-privet/</link>
       <pubDate>Thu, 14 May 2020 18:05:23 +0300</pubDate>
       
-      <guid>https://dvesti.github.io/post/2020-05-14-privet/</guid>
-      <description>Всех приветствую 14 мая 2020!
-И 18-го &amp;ndash; тоже!
-и уже 20-е
-20-05-2020 &amp;ndash; 15:00
-21-05-2020 test
-24-05-2020 17-00</description>
+      <guid>https://dvesti.github.io/site-hugo/post/2020-05-14-privet/</guid>
+      <description>&lt;p&gt;Всех приветствую 14 мая 2020!&lt;br&gt;
+И 18-го &amp;ndash; тоже!&lt;br&gt;
+и уже 20-е&lt;br&gt;
+20-05-2020 &amp;ndash; 15:00&lt;br&gt;
+24-05-2020 &amp;ndash; 19:00&lt;br&gt;
+Пушу из основной папки с намёком на public Hugo &amp;ndash; 24-05-2020  19-40&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A</title>
-      <link>https://dvesti.github.io/post/2020-05-13-a/</link>
+      <link>https://dvesti.github.io/site-hugo/post/2020-05-13-a/</link>
       <pubDate>Wed, 13 May 2020 02:04:31 +0300</pubDate>
       
-      <guid>https://dvesti.github.io/post/2020-05-13-a/</guid>
+      <guid>https://dvesti.github.io/site-hugo/post/2020-05-13-a/</guid>
       <description>Это &amp;ndash; тест</description>
     </item>
     
     <item>
       <title>Привет из XXI века</title>
-      <link>https://dvesti.github.io/post/2020-05-13-privetstvie/</link>
+      <link>https://dvesti.github.io/site-hugo/post/2020-05-13-privetstvie/</link>
       <pubDate>Tue, 12 May 2020 21:44:45 +0300</pubDate>
       
-      <guid>https://dvesti.github.io/post/2020-05-13-privetstvie/</guid>
+      <guid>https://dvesti.github.io/site-hugo/post/2020-05-13-privetstvie/</guid>
       <description>Kумушки от камушек - 2020</description>
     </item>
     
     <item>
-<<<<<<< HEAD
-=======
       <title>Math Preview</title>
       <link>https://dvesti.github.io/site-hugo/post/math-preview/</link>
       <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
       
       <guid>https://dvesti.github.io/site-hugo/post/math-preview/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.intmath.com/cg5/katex-mathjax-comparison.php&#34;&gt;KaTeX and MathJax Comparison Demo, currently processed as KaTex&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Shortcodes Preview</title>
+      <link>https://dvesti.github.io/site-hugo/post/shortcodes-preview/</link>
+      <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://dvesti.github.io/site-hugo/post/shortcodes-preview/</guid>
+      <description>&lt;h2 id=&#34;what-a-shortcode-is&#34;&gt;What a Shortcode is&lt;/h2&gt;
+&lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax.&lt;/p&gt;
+&lt;p&gt;Hugo created &lt;strong&gt;shortcodes&lt;/strong&gt; to circumvent these limitations.&lt;/p&gt;
+&lt;p&gt;A shortcode is a simple snippet inside a content file that Hugo will render using a predefined template. Note that shortcodes will not work in template files. If you need the type of drop-in functionality that shortcodes provide but in a template, you most likely want a [partial template][partials] instead.&lt;/p&gt;
+&lt;p&gt;In addition to cleaner Markdown, shortcodes can be updated any time to reflect new classes, techniques, or standards. At the point of site generation, Hugo shortcodes will easily merge in your changes. You avoid a possibly complicated search and replace operation.&lt;/p&gt;
+&lt;p&gt;More details: &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;https://gohugo.io/content-management/shortcodes/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -74,6 +97,15 @@
 &lt;p&gt;This is an image in &lt;code&gt;static/image&lt;/code&gt; folder.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;![&lt;span style=&#34;color:#f92672&#34;&gt;This is an image in `static/image` folder.&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;/image/example.jpg&lt;/span&gt;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Shortcodes Notice Preview</title>
+      <link>https://dvesti.github.io/site-hugo/post/shortcode-notice/</link>
+      <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://dvesti.github.io/site-hugo/post/shortcode-notice/</guid>
+      <description>normal use Note example: {{% notice note %}} A notice disclaimer {{% /notice %}} Result: {{% notice note %}} A notice disclaimer {{% /notice %}} You could custom title : {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} tip {{% notice tip %}} A tip disclaimer {{% /tip %}} {{/* notice tip */}} A</description>
     </item>
     
     <item>
@@ -150,12 +182,11 @@ Follow the following steps:
     </item>
     
     <item>
->>>>>>> 720369b26dde0c5fd2d9b16cf2206bd9467cb66c
       <title>Introducing Lanyon</title>
-      <link>https://dvesti.github.io/post/2014-01-02-introducing-lanyon/</link>
+      <link>https://dvesti.github.io/site-hugo/post/2014-01-02-introducing-lanyon/</link>
       <pubDate>Thu, 02 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://dvesti.github.io/post/2014-01-02-introducing-lanyon/</guid>
+      <guid>https://dvesti.github.io/site-hugo/post/2014-01-02-introducing-lanyon/</guid>
       <description>Lanyon is an unassuming Jekyll theme that places content first by tucking away navigation in a hidden drawer. It&amp;rsquo;s based on Poole, the Jekyll butler.
 Built on Poole Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by @mdo. Poole, and every theme built on it (like Lanyon here) includes the following:
  Complete Jekyll setup included (layouts, config, 404, RSS feed, posts, and example page) Mobile friendly design and development Easily scalable text and component sizing with rem units in the CSS Support for a wide gamut of HTML elements Related posts (time-based, because Jekyll) below each post Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)  Lanyon features In addition to the features of Poole, Lanyon adds the following:</description>
@@ -163,10 +194,10 @@ Built on Poole Poole is the Jekyll Butler, serving as an upstanding and effectiv
     
     <item>
       <title>Example content</title>
-      <link>https://dvesti.github.io/post/2014-01-01-example-content/</link>
+      <link>https://dvesti.github.io/site-hugo/post/2014-01-01-example-content/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://dvesti.github.io/post/2014-01-01-example-content/</guid>
+      <guid>https://dvesti.github.io/site-hugo/post/2014-01-01-example-content/</guid>
       <description>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
  Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
  Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.</description>
@@ -174,12 +205,25 @@ Built on Poole Poole is the Jekyll Butler, serving as an upstanding and effectiv
     
     <item>
       <title>What&#39;s Jekyll?</title>
-      <link>https://dvesti.github.io/post/2013-12-31-whats-jekyll/</link>
+      <link>https://dvesti.github.io/site-hugo/post/2013-12-31-whats-jekyll/</link>
       <pubDate>Tue, 31 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://dvesti.github.io/post/2013-12-31-whats-jekyll/</guid>
+      <guid>https://dvesti.github.io/site-hugo/post/2013-12-31-whats-jekyll/</guid>
       <description>тяф Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project&amp;rsquo;s readme:
  Jekyll is a simple, blog aware, static site generator. It takes a template directory [&amp;hellip;] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Syntax Highlighting</title>
+      <link>https://dvesti.github.io/site-hugo/post/syntax-highlighting/</link>
+      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
+      
+      <guid>https://dvesti.github.io/site-hugo/post/syntax-highlighting/</guid>
+      <description>&lt;p&gt;More detail: &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting/&#34;&gt;Syntax Highlighting | Hugo&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;helloWorld&lt;/span&gt; () {
+  &lt;span style=&#34;color:#a6e22e&#34;&gt;alert&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>
