@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+<<<<<<< HEAD
     <loc>https://dvesti.github.io/fixed/about/</loc>
   </url>
   
@@ -12,45 +13,93 @@
   
   <url>
     <loc>https://dvesti.github.io/post/</loc>
+=======
+    <loc>https://dvesti.github.io/site-hugo/categories/</loc>
     <lastmod>2020-05-14T18:05:23+03:00</lastmod>
   </url>
   
   <url>
+    <loc>https://dvesti.github.io/site-hugo/categories/news/</loc>
+    <lastmod>2020-05-14T18:05:23+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/post/</loc>
+    <lastmod>2020-05-14T18:05:23+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/tags/</loc>
+>>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
+    <lastmod>2020-05-14T18:05:23+03:00</lastmod>
+  </url>
+  
+  <url>
+<<<<<<< HEAD
     <loc>https://dvesti.github.io/post/2020-05-14-privet/</loc>
+=======
+    <loc>https://dvesti.github.io/site-hugo/tags/test/</loc>
+>>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
     <lastmod>2020-05-14T18:05:23+03:00</lastmod>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://dvesti.github.io/</loc>
+=======
+    <loc>https://dvesti.github.io/site-hugo/</loc>
+>>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
     <lastmod>2020-05-14T18:05:23+03:00</lastmod>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://dvesti.github.io/post/2020-05-13-a/</loc>
     <lastmod>2020-05-13T02:04:31+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://dvesti.github.io/post/2020-05-13-privetstvie/</loc>
+=======
+    <loc>https://dvesti.github.io/site-hugo/post/2020-05-14-privet/</loc>
+    <lastmod>2020-05-14T18:05:23+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/post/2020-05-13-privetstvie/</loc>
+>>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
     <lastmod>2020-05-12T21:44:45+03:00</lastmod>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://dvesti.github.io/post/2014-01-02-introducing-lanyon/</loc>
+=======
+    <loc>https://dvesti.github.io/site-hugo/post/2014-01-02-introducing-lanyon/</loc>
+>>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
     <lastmod>2014-01-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://dvesti.github.io/post/2014-01-01-example-content/</loc>
+=======
+    <loc>https://dvesti.github.io/site-hugo/post/2014-01-01-example-content/</loc>
+>>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://dvesti.github.io/post/2013-12-31-whats-jekyll/</loc>
+=======
+    <loc>https://dvesti.github.io/site-hugo/post/2013-12-31-whats-jekyll/</loc>
+>>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
     <lastmod>2013-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://dvesti.github.io/fixed/mpage/</loc>
   </url>
   
@@ -64,6 +113,19 @@
   
   <url>
     <loc>https://dvesti.github.io/tags/</loc>
+=======
+    <loc>https://dvesti.github.io/site-hugo/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/archives/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/series/</loc>
+>>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
   </url>
   
 </urlset>
