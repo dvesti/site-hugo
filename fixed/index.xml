@@ -2,36 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fixeds on Мой Hugo сайт</title>
-<<<<<<< HEAD
     <link>https://dvesti.github.io/fixed/</link>
-=======
-    <link>https://dvesti.github.io/site-hugo/fixed/</link>
->>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
     <description>Recent content in Fixeds on Мой Hugo сайт</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <copyright>&amp;copy; Copyright 2017 Your name</copyright>
     
-<<<<<<< HEAD
 	<atom:link href="https://dvesti.github.io/fixed/index.xml" rel="self" type="application/rss+xml" />
-=======
-	<atom:link href="https://dvesti.github.io/site-hugo/fixed/index.xml" rel="self" type="application/rss+xml" />
->>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
     
     
     <item>
       <title>About</title>
-<<<<<<< HEAD
       <link>https://dvesti.github.io/fixed/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dvesti.github.io/fixed/about/</guid>
-=======
-      <link>https://dvesti.github.io/site-hugo/fixed/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvesti.github.io/site-hugo/fixed/about/</guid>
->>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
       <description>In the novel, The Strange Case of Dr. Jeykll and Mr. Hyde, Mr. Poole is Dr. Jekyll&amp;rsquo;s virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It&amp;rsquo;s made by @mdo.
 There are currently two themes built on Poole:
  Hyde Lanyon  Learn more and contribute on GitHub.
@@ -41,33 +25,19 @@ Setup Some fun facts about the setup of this project include:
     
     <item>
       <title>Another Fixed Page</title>
-<<<<<<< HEAD
       <link>https://dvesti.github.io/fixed/altab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dvesti.github.io/fixed/altab/</guid>
-=======
-      <link>https://dvesti.github.io/site-hugo/fixed/altab/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvesti.github.io/site-hugo/fixed/altab/</guid>
->>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
       <description>This is just another example of a fixed page, to demonstrate ordered elements in the sidebar.</description>
     </item>
     
     <item>
       <title>A Menu Page Using Hugo Menu Templates</title>
-<<<<<<< HEAD
       <link>https://dvesti.github.io/fixed/mpage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dvesti.github.io/fixed/mpage/</guid>
-=======
-      <link>https://dvesti.github.io/site-hugo/fixed/mpage/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvesti.github.io/site-hugo/fixed/mpage/</guid>
->>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
       <description>This is example of a page from site menu. Pages from &amp;lsquo;main&amp;rsquo; menu appear just above the fixed pages from sidebar. Checkout official documentation about Menu Templates.</description>
     </item>
     

@@ -1,35 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<<<<<<< HEAD
     <title>Tags on Мой Hugo сайт</title>
     <link>https://dvesti.github.io/tags/</link>
     <description>Recent content in Tags on Мой Hugo сайт</description>
-=======
-    <title>Tags on Мой Hugo</title>
-    <link>https://dvesti.github.io/site-hugo/tags/</link>
-    <description>Recent content in Tags on Мой Hugo</description>
->>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <copyright>&amp;copy; Copyright 2020 Dvesti</copyright>
-    <lastBuildDate>Thu, 14 May 2020 18:05:23 +0300</lastBuildDate>
     
-<<<<<<< HEAD
 	<atom:link href="https://dvesti.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-=======
-	<atom:link href="https://dvesti.github.io/site-hugo/tags/index.xml" rel="self" type="application/rss+xml" />
->>>>>>> 0129a83b4ce2393e4bb776f5e0cacdc9634a6601
     
-    
-    <item>
-      <title>Test</title>
-      <link>https://dvesti.github.io/site-hugo/tags/test/</link>
-      <pubDate>Thu, 14 May 2020 18:05:23 +0300</pubDate>
-      
-      <guid>https://dvesti.github.io/site-hugo/tags/test/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
