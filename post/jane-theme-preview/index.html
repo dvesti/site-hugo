@@ -73,7 +73,7 @@ Please note that HTML fragments in markdown source will be recognized but not pa
 Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.">
 <meta itemprop="datePublished" content="2018-01-01T16:01:23&#43;08:00" />
 <meta itemprop="dateModified" content="2018-03-07T16:01:23&#43;08:00" />
-<meta itemprop="wordCount" content="1530">
+<meta itemprop="wordCount" content="1653">
 
 
 
@@ -834,7 +834,19 @@ And then define the link:
 <h2 id="inline-math">Inline Math</h2>
 <p>To use this feature, first, please enable it in <code>Preference</code> Panel -&gt; <code>Markdown</code> Tab. Then use <code>$</code> to wrap TeX command, for example: <code>$\lim_{x \to \infty} \exp(-x) = 0$</code> will be rendered as LaTeX command.</p>
 <p>To trigger inline preview for inline math: input “$”, then press <code>ESC</code> key, then input TeX command, a preview tooltip will be visible like below:</p>
+<p><em>HTML</em> в <em>MarkDown</em> &ndash; не работает (есть свои хитрости)</p>
 <p><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->It **works!**<!-- raw HTML omitted --></p>
+<p>Ниже записано средствами самого <em>MarkDown</em></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-md" data-lang="md">![<span class="nt">Картинка</span>](<span class="na">https://typora.io/img/inline-math.gif</span>)
+</code></pre></td></tr></table>
+</div>
+</div><p><img src="https://typora.io/img/inline-math.gif" alt="Картинка"></p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>

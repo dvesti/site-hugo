@@ -30,7 +30,7 @@ body {
 
 
 .post .post-content p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.5;
   font-family: 'Merriweather', serif;
   color: #444;
@@ -39,6 +39,7 @@ body {
 
 .post .post-header .post-title {
     font-family: 'Oswald', sans-serif;
+    font-size: 2em;
 }
 
 .post .micro-header {
@@ -79,7 +80,7 @@ body {
 }
 
 .highlight {
-    font-size: smaller;
+    font-size: 1.1em;/*smaller;*/
     line-height: 1.2em;
 }
 
@@ -94,6 +95,12 @@ body {
 .post .post-footer {
     margin-top: 3em;
 }
+
+.post .post-content code {
+   padding: 3px 7px;
+   background: #f8f5ec;
+   border-radius: 4px;
+   color: #c7254e;
 
 /* Comments/Webmentions */
 
@@ -209,7 +216,7 @@ ol.commentlist .avatar {
 .archive .archive-post {
   padding: 2px 0px 0px;
   border-bottom: none;
-  font-size: 1.0em;
+  font-size: 1.2em;
   display: table;
   width: 100%;
 }
@@ -249,3 +256,8 @@ transform: none;
 	color: #c05b4d;
 	text-decoration: none;	
 }
+
+.container {
+   width: 1200px;
+ }
+
