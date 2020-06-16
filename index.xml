@@ -486,13 +486,18 @@ hugo
     </item>
     
     <item>
-      <title>A</title>
+      <title>Тема Jane A</title>
       <link>https://dvesti.github.io/site-hugo/post/2020-05-13-a/</link>
       <pubDate>Wed, 13 May 2020 02:04:31 +0300</pubDate>
       
       <guid>https://dvesti.github.io/site-hugo/post/2020-05-13-a/</guid>
       
-        <description>&lt;p&gt;Это &amp;ndash; &lt;strong&gt;тест&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;del&gt;Это &amp;ndash; &lt;strong&gt;тест&lt;/strong&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;Установил тему &lt;strong&gt;Джейн &amp;ndash; Jane&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Изменил начертание и размер шрифта, потом изменю остальное: главное, чтобы самому нравилось.&lt;/p&gt;
+&lt;p&gt;Добавил в Конфиг данные, чтобы было похоже на оригинал и Плюс подсмотрел у других сайтов, которые ориентированы не на отображение кода, а на обычный Блог.&lt;/p&gt;
+&lt;p&gt;Именно такой нам и нужен.&lt;/p&gt;
+&lt;p&gt;В планах &amp;ndash; создать некую записную книжку для ежедневных записей&amp;hellip;&lt;/p&gt;
 </description>
       
     </item>
