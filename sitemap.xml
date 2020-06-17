@@ -9,8 +9,15 @@
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/site-hugo/post/jane-theme-preview/</loc>
-    <lastmod>2018-03-07T16:01:23+08:00</lastmod>
+    <loc>https://dvesti.github.io/site-hugo/post/i-write-my-blog-posts-in-markdown/</loc>
+    <lastmod>2020-06-17T12:04:31+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/post/</loc>
+    <lastmod>2020-06-17T12:04:31+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -25,13 +32,6 @@
   <url>
     <loc>https://dvesti.github.io/site-hugo/categories/news/</loc>
     <lastmod>2020-05-14T18:05:23+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://dvesti.github.io/site-hugo/post/</loc>
-    <lastmod>2020-06-16T02:04:31+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -213,6 +213,13 @@
   <url>
     <loc>https://dvesti.github.io/site-hugo/tags/tag-11/</loc>
     <lastmod>2018-03-01T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/post/jane-theme-preview/</loc>
+    <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

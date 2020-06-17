@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on Мои друзья: Jane и Hugo</title>
+    <title>News on Блог Dvesti</title>
     <link>https://dvesti.github.io/site-hugo/categories/news/</link>
-    <description>Recent content in News on Мои друзья: Jane и Hugo</description>
+    <description>Recent content in News on Блог Dvesti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Thu, 14 May 2020 18:05:23 +0300</lastBuildDate>
