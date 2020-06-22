@@ -9,6 +9,55 @@
   </url>
   
   <url>
+    <loc>https://dvesti.github.io/site-hugo/categories/</loc>
+    <lastmod>2020-06-19T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/tags/image/</loc>
+    <lastmod>2020-06-19T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/categories/nanote.ru/</loc>
+    <lastmod>2020-06-19T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/tags/poet/</loc>
+    <lastmod>2020-06-19T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/post/</loc>
+    <lastmod>2020-06-19T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/tags/</loc>
+    <lastmod>2020-06-19T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/post/kotomodel/</loc>
+    <lastmod>2020-06-19T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://dvesti.github.io/site-hugo/post/i-write-my-blog-posts-in-markdown/</loc>
     <lastmod>2020-06-17T12:04:31+03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,28 +65,7 @@
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/site-hugo/post/</loc>
-    <lastmod>2020-06-17T12:04:31+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://dvesti.github.io/site-hugo/categories/</loc>
-    <lastmod>2020-05-14T18:05:23+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://dvesti.github.io/site-hugo/categories/news/</loc>
-    <lastmod>2020-05-14T18:05:23+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://dvesti.github.io/site-hugo/tags/</loc>
     <lastmod>2020-05-14T18:05:23+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -75,13 +103,6 @@
     <loc>https://dvesti.github.io/site-hugo/page/</loc>
     <lastmod>2019-06-07T20:22:57+02:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://dvesti.github.io/site-hugo/page/search/</loc>
-    <lastmod>2019-06-07T20:22:57+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
@@ -157,13 +178,6 @@
   <url>
     <loc>https://dvesti.github.io/site-hugo/post/shortcodes-preview/</loc>
     <lastmod>2018-03-05T16:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://dvesti.github.io/site-hugo/tags/image/</loc>
-    <lastmod>2018-03-04T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -418,6 +432,12 @@
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/site-hugo/search/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.1</priority>
   </url>
   
 </urlset>
