@@ -32,11 +32,11 @@
 
 
 
-<meta name="generator" content="Hugo 0.68.3" />
+<meta name="generator" content="Hugo 0.74.1" />
 
 
 <link rel="canonical" href="https://dvesti.github.io/site-hugo/post/english-preview/" />
-<link href="/site-hugo/post/english-preview/index.xml" rel="alternate" type="application/rss+xml" title="Блог Dvesti" />
+
 
 
 
@@ -95,7 +95,7 @@ This tutorial will show you how to create a simple theme in Hugo. I assume that 
 <link rel="stylesheet" type="text/css" href="/site-hugo/css/custom.css">
 <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
 
-<script src="/js/mark.js"></script>
+<script src="https://dvesti.github.io/site-hugo/js/mark.js"></script>
 
 
 </head>
@@ -151,7 +151,7 @@ This tutorial will show you how to create a simple theme in Hugo. I assume that 
         
           
           
-            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/static/search">Search</a>
+            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/search.html">Поиск</a>
           
         
       </li><li class="mobile-menu-item">
@@ -193,13 +193,6 @@ This tutorial will show you how to create a simple theme in Hugo. I assume that 
               </li>
             
           </ul>
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/search">Поиск</a>
-          
         
       </li>
     
@@ -329,7 +322,7 @@ This tutorial will show you how to create a simple theme in Hugo. I assume that 
         
           
           
-            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/static/search">Search</a>
+            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/search.html">Поиск</a>
           
 
         
@@ -379,23 +372,16 @@ This tutorial will show you how to create a simple theme in Hugo. I assume that 
 
       </li>
     
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/search">Поиск</a>
-          
-
-        
-
-      </li>
-    
 
     
     
 
     
       <li class="menu-item">
+              <form action="https://dvesti.github.io/site-hugo/search">
+          <input id="search-query" name="s" class="query" type="text" placeholder="Search" autocapitalize="off"
+            autocorrect="off" autocomplete="off" spellcheck>
+        </form>
         <a id="openSearch" class="menu-item-link menu-item-search" href="#">
           <i class="iconfont">
             <svg version="1.1" viewBox="0 0 1024 1024"
@@ -414,14 +400,14 @@ This tutorial will show you how to create a simple theme in Hugo. I assume that 
 
   </header>
 
-
+ 
 
 
   <div id="mobile-panel">
       <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          <article class="post bg-white">
+           <article class="post bg-white">
     
     <header class="post-header">
       <h1 class="post-title">English Creating a New Theme</h1>
@@ -1412,7 +1398,7 @@ $
 $
 </code></pre></td></tr></table>
 </div>
-</div><p>Hugo uses the Go template engine. That engine scans the template files for commands which are enclosed between &ldquo;{{&rdquo; and &ldquo;}}&quot;. In our template, the commands are:</p>
+</div><p>Hugo uses the Go template engine. That engine scans the template files for commands which are enclosed between &ldquo;{{&rdquo; and &ldquo;}}&rdquo;. In our template, the commands are:</p>
 <ol>
 <li>range</li>
 <li>.Title</li>
@@ -1808,7 +1794,7 @@ i&#39;m speechless
 -rw-rw-r--  1 mdhender  staff   342 Sep 27 15:08 public/post/second-post/index.html
 </code></pre></td></tr></table>
 </div>
-</div><p>Notice that the page wasn&rsquo;t created at the top level. It was created in a sub-directory named &lsquo;about-time/'. That name came from our slug. Hugo will use the slug to name the generated content. It&rsquo;s a reasonable default, by the way, but we can learn a few things by fighting it for this file.</p>
+</div><p>Notice that the page wasn&rsquo;t created at the top level. It was created in a sub-directory named &lsquo;about-time/&rsquo;. That name came from our slug. Hugo will use the slug to name the generated content. It&rsquo;s a reasonable default, by the way, but we can learn a few things by fighting it for this file.</p>
 <p>One other thing. Take a look at the home page.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2260,7 +2246,6 @@ $ vi themes/zafta/layouts/_default/single.html
    
 </div>
 
-
 <div class="copyright">
   <span class="power-by">
     Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
@@ -2365,7 +2350,6 @@ $ vi themes/zafta/layouts/_default/single.html
 
   
   
-
 </body>
 <script src="https://dvesti.github.io/site-hugo/js/search.js"></script>
 <script src="https://dvesti.github.io/site-hugo/js/mark.js"></script>

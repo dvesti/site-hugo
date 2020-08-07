@@ -33,11 +33,11 @@ We&amp;rsquo;ll start with creating a new site with a very basic template. Then 
 
 
 
-<meta name="generator" content="Hugo 0.68.3" />
+<meta name="generator" content="Hugo 0.74.1" />
 
 
 <link rel="canonical" href="https://dvesti.github.io/site-hugo/post/creating-a-new-theme/" />
-<link href="/site-hugo/post/creating-a-new-theme/index.xml" rel="alternate" type="application/rss+xml" title="Блог Dvesti" />
+
 
 
 
@@ -99,7 +99,7 @@ We&rsquo;ll start with creating a new site with a very basic template. Then we&r
 <link rel="stylesheet" type="text/css" href="/site-hugo/css/custom.css">
 <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
 
-<script src="/js/mark.js"></script>
+<script src="https://dvesti.github.io/site-hugo/js/mark.js"></script>
 
 
 </head>
@@ -155,7 +155,7 @@ We&rsquo;ll start with creating a new site with a very basic template. Then we&r
         
           
           
-            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/static/search">Search</a>
+            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/search.html">Поиск</a>
           
         
       </li><li class="mobile-menu-item">
@@ -197,13 +197,6 @@ We&rsquo;ll start with creating a new site with a very basic template. Then we&r
               </li>
             
           </ul>
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/search">Поиск</a>
-          
         
       </li>
     
@@ -333,7 +326,7 @@ We&rsquo;ll start with creating a new site with a very basic template. Then we&r
         
           
           
-            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/static/search">Search</a>
+            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/search.html">Поиск</a>
           
 
         
@@ -383,23 +376,16 @@ We&rsquo;ll start with creating a new site with a very basic template. Then we&r
 
       </li>
     
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/search">Поиск</a>
-          
-
-        
-
-      </li>
-    
 
     
     
 
     
       <li class="menu-item">
+              <form action="https://dvesti.github.io/site-hugo/search">
+          <input id="search-query" name="s" class="query" type="text" placeholder="Search" autocapitalize="off"
+            autocorrect="off" autocomplete="off" spellcheck>
+        </form>
         <a id="openSearch" class="menu-item-link menu-item-search" href="#">
           <i class="iconfont">
             <svg version="1.1" viewBox="0 0 1024 1024"
@@ -418,14 +404,14 @@ We&rsquo;ll start with creating a new site with a very basic template. Then we&r
 
   </header>
 
-
+ 
 
 
   <div id="mobile-panel">
       <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          <article class="post bg-white">
+           <article class="post bg-white">
     
     <header class="post-header">
       <h1 class="post-title">Creating a New Theme</h1>
@@ -1096,12 +1082,12 @@ in 1 ms
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-md" data-lang="md">$ vi themes/zafta/layouts/index.html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;body&gt;
-  &lt;p&gt;hugo says hello!&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>hugo says hello!<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 :wq
 
 $
@@ -1149,11 +1135,11 @@ $ find public -type f -name &#39;*.html&#39; | xargs ls -l
 -rw-r--r--  1 quoha  staff  78 Sep 29 21:26 public/index.html
 
 $ cat public/index.html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;body&gt;
-  &lt;p&gt;hugo says hello!&lt;/p&gt;
-&lt;/html&gt;
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>hugo says hello!<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </code></pre></td></tr></table>
 </div>
 </div><h4 id="live-reload-">Live Reload +</h4>
@@ -1173,15 +1159,15 @@ $ cat public/index.html
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-md" data-lang="md">$ cat public/index.html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;body&gt;
-  &lt;p&gt;hugo says hello!&lt;/p&gt;
-&lt;script&gt;document.write(&#39;&lt;script src=&#34;http://&#39;
-        + (location.host || &#39;localhost&#39;).split(&#39;:&#39;)[0]
-    + &#39;:1313/livereload.js?mindelay=10&#34;&gt;&lt;/&#39;
-        + &#39;script&gt;&#39;)&lt;/script&gt;&lt;/body&gt;
-&lt;/html&gt;
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>hugo says hello!<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span><span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="s1">&#39;&lt;script src=&#34;http://&#39;</span>
+        <span class="o">+</span> <span class="p">(</span><span class="nx">location</span><span class="p">.</span><span class="nx">host</span> <span class="o">||</span> <span class="s1">&#39;localhost&#39;</span><span class="p">).</span><span class="nx">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="o">+</span> <span class="s1">&#39;:1313/livereload.js?mindelay=10&#34;&gt;&lt;/&#39;</span>
+        <span class="o">+</span> <span class="s1">&#39;script&gt;&#39;</span><span class="p">)&lt;/</span><span class="nt">script</span><span class="p">&gt;&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>When you use <code>--watch</code>, the Live Reload script is added by Hugo. Look for live reload in the documentation to see what it does and how to disable it.</p>
@@ -1205,7 +1191,7 @@ $ cat public/index.html
 INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
 INFO: 2014/09/29 attempting to create  post/first.md of post
 INFO: 2014/09/29 curpath: /Users/quoha/Sites/zafta/themes/zafta/archetypes/default.md
-ERROR: 2014/09/29 Unable to Cast &lt;nil&gt; to map[string]interface{}
+ERROR: 2014/09/29 Unable to Cast <span class="p">&lt;</span><span class="nt">nil</span><span class="p">&gt;</span> to map[string]interface{}
 
 $
 </code></pre></td></tr></table>
@@ -1404,20 +1390,20 @@ $
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-md" data-lang="md">$ vi themes/zafta/layouts/index.html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;body&gt;
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
   {{ range first 10 .Data.Pages }}
-    &lt;h1&gt;{{ .Title }}&lt;/h1&gt;
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>{{ .Title }}<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
   {{ end }}
-&lt;/body&gt;
-&lt;/html&gt;
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 :wq
 
 $
 </code></pre></td></tr></table>
 </div>
-</div><p>Hugo uses the Go template engine. That engine scans the template files for commands which are enclosed between &ldquo;{{&rdquo; and &ldquo;}}&quot;. In our template, the commands are:</p>
+</div><p>Hugo uses the Go template engine. That engine scans the template files for commands which are enclosed between &ldquo;{{&rdquo; and &ldquo;}}&rdquo;. In our template, the commands are:</p>
 <ol>
 <li>range</li>
 <li>.Title</li>
@@ -1481,16 +1467,16 @@ $ find public -type f -name &#39;*.html&#39; | xargs ls -l
 -rw-r--r--  1 quoha  staff   0 Sep 29 22:23 public/post/index.html
 -rw-r--r--  1 quoha  staff   0 Sep 29 22:23 public/post/second/index.html
 $ cat public/index.html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;body&gt;
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
 
-    &lt;h1&gt;second&lt;/h1&gt;
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>second<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
 
-    &lt;h1&gt;first&lt;/h1&gt;
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>first<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
 
-&lt;/body&gt;
-&lt;/html&gt;
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 $
 </code></pre></td></tr></table>
 </div>
@@ -1533,16 +1519,16 @@ $
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-md" data-lang="md">$ vi themes/zafta/layouts/_default/single.html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;title&gt;{{ .Title }}&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;{{ .Title }}&lt;/h1&gt;
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>{{ .Title }}<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>{{ .Title }}<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
   {{ .Content }}
-&lt;/body&gt;
-&lt;/html&gt;
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 :wq
 
 $
@@ -1620,30 +1606,30 @@ $ find public -type f -name &#39;*.html&#39; | xargs ls -l
 -rw-r--r--  1 quoha  staff  128 Sep 29 22:40 public/post/second/index.html
 
 $ cat public/post/first/index.html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;title&gt;first&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;first&lt;/h1&gt;
-  &lt;p&gt;my first post&lt;/p&gt;
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>first<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>first<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>my first post<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
 
-&lt;/body&gt;
-&lt;/html&gt;
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 
 $ cat public/post/second/index.html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;title&gt;second&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;second&lt;/h1&gt;
-  &lt;p&gt;my second post&lt;/p&gt;
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>second<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>second<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>my second post<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
 
-&lt;/body&gt;
-&lt;/html&gt;
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 $
 </code></pre></td></tr></table>
 </div>
@@ -1664,14 +1650,14 @@ $
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-md" data-lang="md">$ vi themes/zafta/layouts/index.html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;body&gt;
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
   {{ range first 10 .Data.Pages }}
-    &lt;h1&gt;&lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;&lt;/h1&gt;
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;{{ .Permalink }}&#34;</span><span class="p">&gt;</span>{{ .Title }}<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
   {{ end }}
-&lt;/body&gt;
-&lt;/html&gt;
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Build the web site and verify the results.</p>
@@ -1733,16 +1719,16 @@ $ find public -type f -name &#39;*.html&#39; | xargs ls -l
 -rw-r--r--  1 quoha  staff  128 Sep 29 22:44 public/post/second/index.html
 
 $ cat public/index.html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;body&gt;
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
 
-    &lt;h1&gt;&lt;a href=&#34;/post/second/&#34;&gt;second&lt;/a&gt;&lt;/h1&gt;
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/post/second/&#34;</span><span class="p">&gt;</span>second<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
 
-    &lt;h1&gt;&lt;a href=&#34;/post/first/&#34;&gt;first&lt;/a&gt;&lt;/h1&gt;
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/post/first/&#34;</span><span class="p">&gt;</span>first<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
 
-&lt;/body&gt;
-&lt;/html&gt;
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 
 $
 </code></pre></td></tr></table>
@@ -1813,7 +1799,7 @@ i&#39;m speechless
 -rw-rw-r--  1 mdhender  staff   342 Sep 27 15:08 public/post/second-post/index.html
 </code></pre></td></tr></table>
 </div>
-</div><p>Notice that the page wasn&rsquo;t created at the top level. It was created in a sub-directory named &lsquo;about-time/'. That name came from our slug. Hugo will use the slug to name the generated content. It&rsquo;s a reasonable default, by the way, but we can learn a few things by fighting it for this file.</p>
+</div><p>Notice that the page wasn&rsquo;t created at the top level. It was created in a sub-directory named &lsquo;about-time/&rsquo;. That name came from our slug. Hugo will use the slug to name the generated content. It&rsquo;s a reasonable default, by the way, but we can learn a few things by fighting it for this file.</p>
 <p>One other thing. Take a look at the home page.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1833,18 +1819,18 @@ i&#39;m speechless
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-md" data-lang="md">$ cat public/index.html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;body&gt;
-    &lt;h1&gt;&lt;a href=&#34;http://localhost:1313/post/theme/&#34;&gt;creating a new theme&lt;/a&gt;&lt;/h1&gt;
-    &lt;h1&gt;&lt;a href=&#34;http://localhost:1313/about-time/&#34;&gt;about&lt;/a&gt;&lt;/h1&gt;
-    &lt;h1&gt;&lt;a href=&#34;http://localhost:1313/post/second-post/&#34;&gt;second&lt;/a&gt;&lt;/h1&gt;
-    &lt;h1&gt;&lt;a href=&#34;http://localhost:1313/post/first-post/&#34;&gt;first&lt;/a&gt;&lt;/h1&gt;
-&lt;script&gt;document.write(&#39;&lt;script src=&#34;http://&#39;
-        + (location.host || &#39;localhost&#39;).split(&#39;:&#39;)[0]
-  + &#39;:1313/livereload.js?mindelay=10&#34;&gt;&lt;/&#39;
-        + &#39;script&gt;&#39;)&lt;/script&gt;&lt;/body&gt;
-&lt;/html&gt;
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;http://localhost:1313/post/theme/&#34;</span><span class="p">&gt;</span>creating a new theme<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;http://localhost:1313/about-time/&#34;</span><span class="p">&gt;</span>about<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;http://localhost:1313/post/second-post/&#34;</span><span class="p">&gt;</span>second<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;http://localhost:1313/post/first-post/&#34;</span><span class="p">&gt;</span>first<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span><span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="s1">&#39;&lt;script src=&#34;http://&#39;</span>
+        <span class="o">+</span> <span class="p">(</span><span class="nx">location</span><span class="p">.</span><span class="nx">host</span> <span class="o">||</span> <span class="s1">&#39;localhost&#39;</span><span class="p">).</span><span class="nx">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+  <span class="o">+</span> <span class="s1">&#39;:1313/livereload.js?mindelay=10&#34;&gt;&lt;/&#39;</span>
+        <span class="o">+</span> <span class="s1">&#39;script&gt;&#39;</span><span class="p">)&lt;/</span><span class="nt">script</span><span class="p">&gt;&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Notice that the &ldquo;about&rdquo; link is listed with the posts? That&rsquo;s not desirable, so let&rsquo;s change that first.</p>
@@ -1873,24 +1859,24 @@ i&#39;m speechless
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-md" data-lang="md">$ vi themes/zafta/layouts/index.html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;body&gt;
-  &lt;h1&gt;posts&lt;/h1&gt;
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>posts<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
   {{ range first 10 .Data.Pages }}
     {{ if eq .Type &#34;post&#34;}}
-      &lt;h2&gt;&lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;&lt;/h2&gt;
+      <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;{{ .Permalink }}&#34;</span><span class="p">&gt;</span>{{ .Title }}<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
     {{ end }}
   {{ end }}
 
-  &lt;h1&gt;pages&lt;/h1&gt;
+  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>pages<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
   {{ range .Data.Pages }}
     {{ if eq .Type &#34;page&#34; }}
-      &lt;h2&gt;&lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;&lt;/h2&gt;
+      <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;{{ .Permalink }}&#34;</span><span class="p">&gt;</span>{{ .Title }}<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
     {{ end }}
   {{ end }}
-&lt;/body&gt;
-&lt;/html&gt;
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 :wq
 </code></pre></td></tr></table>
 </div>
@@ -1953,17 +1939,17 @@ i&#39;m speechless
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-md" data-lang="md">$ vi themes/zafta/layouts/partials/header.html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
- &lt;title&gt;{{ .Title }}&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>{{ .Title }}<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
 :wq
 
 $ vi themes/zafta/layouts/partials/footer.html
-&lt;/body&gt;
-&lt;/html&gt;
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 :wq
 </code></pre></td></tr></table>
 </div>
@@ -2014,17 +2000,17 @@ $ vi themes/zafta/layouts/partials/footer.html
 <pre class="chroma"><code class="language-md" data-lang="md">$ vi themes/zafta/layouts/index.html
 {{ partial &#34;header.html&#34; . }}
 
-  &lt;h1&gt;posts&lt;/h1&gt;
+  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>posts<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
   {{ range first 10 .Data.Pages }}
     {{ if eq .Type &#34;post&#34;}}
-      &lt;h2&gt;&lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;&lt;/h2&gt;
+      <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;{{ .Permalink }}&#34;</span><span class="p">&gt;</span>{{ .Title }}<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
     {{ end }}
   {{ end }}
 
-  &lt;h1&gt;pages&lt;/h1&gt;
+  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>pages<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
   {{ range .Data.Pages }}
     {{ if or (eq .Type &#34;page&#34;) (eq .Type &#34;about&#34;) }}
-      &lt;h2&gt;&lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Type }} - {{ .Title }} - {{ .RelPermalink }}&lt;/a&gt;&lt;/h2&gt;
+      <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;{{ .Permalink }}&#34;</span><span class="p">&gt;</span>{{ .Type }} - {{ .Title }} - {{ .RelPermalink }}<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
     {{ end }}
   {{ end }}
 
@@ -2049,7 +2035,7 @@ $ vi themes/zafta/layouts/partials/footer.html
 <pre class="chroma"><code class="language-md" data-lang="md">$ vi themes/zafta/layouts/_default/single.html
 {{ partial &#34;header.html&#34; . }}
 
-  &lt;h1&gt;{{ .Title }}&lt;/h1&gt;
+  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>{{ .Title }}<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
   {{ .Content }}
 
 {{ partial &#34;footer.html&#34; . }}
@@ -2086,8 +2072,8 @@ $ vi themes/zafta/layouts/partials/footer.html
 <pre class="chroma"><code class="language-md" data-lang="md">$ vi themes/zafta/layouts/_default/single.html
 {{ partial &#34;header.html&#34; . }}
 
-  &lt;h1&gt;{{ .Title }}&lt;/h1&gt;
-  &lt;h2&gt;{{ .Date.Format &#34;Mon, Jan 2, 2006&#34; }}&lt;/h2&gt;
+  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>{{ .Title }}<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>{{ .Date.Format &#34;Mon, Jan 2, 2006&#34; }}<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
   {{ .Content }}
 
 {{ partial &#34;footer.html&#34; . }}
@@ -2116,7 +2102,7 @@ $ vi themes/zafta/layouts/partials/footer.html
 $ vi themes/zafta/layouts/_default/single.html
 {{ partial &#34;header.html&#34; . }}
 
-  &lt;h1&gt;{{ .Title }}&lt;/h1&gt;
+  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>{{ .Title }}<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
   {{ .Content }}
 
 {{ partial &#34;footer.html&#34; . }}
@@ -2141,8 +2127,8 @@ $ vi themes/zafta/layouts/_default/single.html
 <pre class="chroma"><code class="language-md" data-lang="md">$ vi themes/zafta/layouts/post/single.html
 {{ partial &#34;header.html&#34; . }}
 
-  &lt;h1&gt;{{ .Title }}&lt;/h1&gt;
-  &lt;h2&gt;{{ .Date.Format &#34;Mon, Jan 2, 2006&#34; }}&lt;/h2&gt;
+  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>{{ .Title }}<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>{{ .Date.Format &#34;Mon, Jan 2, 2006&#34; }}<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
   {{ .Content }}
 
 {{ partial &#34;footer.html&#34; . }}
@@ -2249,7 +2235,6 @@ $ vi themes/zafta/layouts/_default/single.html
    
 </div>
 
-
 <div class="copyright">
   <span class="power-by">
     Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
@@ -2354,7 +2339,6 @@ $ vi themes/zafta/layouts/_default/single.html
 
   
   
-
 </body>
 <script src="https://dvesti.github.io/site-hugo/js/search.js"></script>
 <script src="https://dvesti.github.io/site-hugo/js/mark.js"></script>

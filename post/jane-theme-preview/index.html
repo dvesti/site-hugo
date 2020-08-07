@@ -33,11 +33,11 @@ Please note that HTML fragments in markdown source will be recognized but not pa
 
 
 
-<meta name="generator" content="Hugo 0.68.3" />
+<meta name="generator" content="Hugo 0.74.1" />
 
 
 <link rel="canonical" href="https://dvesti.github.io/site-hugo/post/jane-theme-preview/" />
-<link href="/site-hugo/post/jane-theme-preview/index.xml" rel="alternate" type="application/rss+xml" title="Блог Dvesti" />
+
 
 
 
@@ -96,7 +96,7 @@ Please note that HTML fragments in markdown source will be recognized but not pa
 <link rel="stylesheet" type="text/css" href="/site-hugo/css/custom.css">
 <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
 
-<script src="/js/mark.js"></script>
+<script src="https://dvesti.github.io/site-hugo/js/mark.js"></script>
 
 
 </head>
@@ -152,7 +152,7 @@ Please note that HTML fragments in markdown source will be recognized but not pa
         
           
           
-            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/static/search">Search</a>
+            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/search.html">Поиск</a>
           
         
       </li><li class="mobile-menu-item">
@@ -194,13 +194,6 @@ Please note that HTML fragments in markdown source will be recognized but not pa
               </li>
             
           </ul>
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/search">Поиск</a>
-          
         
       </li>
     
@@ -330,7 +323,7 @@ Please note that HTML fragments in markdown source will be recognized but not pa
         
           
           
-            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/static/search">Search</a>
+            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/search.html">Поиск</a>
           
 
         
@@ -380,23 +373,16 @@ Please note that HTML fragments in markdown source will be recognized but not pa
 
       </li>
     
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://dvesti.github.io/site-hugo/search">Поиск</a>
-          
-
-        
-
-      </li>
-    
 
     
     
 
     
       <li class="menu-item">
+              <form action="https://dvesti.github.io/site-hugo/search">
+          <input id="search-query" name="s" class="query" type="text" placeholder="Search" autocapitalize="off"
+            autocorrect="off" autocomplete="off" spellcheck>
+        </form>
         <a id="openSearch" class="menu-item-link menu-item-search" href="#">
           <i class="iconfont">
             <svg version="1.1" viewBox="0 0 1024 1024"
@@ -415,14 +401,14 @@ Please note that HTML fragments in markdown source will be recognized but not pa
 
   </header>
 
-
+ 
 
 
   <div id="mobile-panel">
       <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          <article class="post bg-white">
+           <article class="post bg-white">
     
     <header class="post-header">
       <h1 class="post-title">Jane Theme Preview</h1>
@@ -561,9 +547,9 @@ $$</p>
 <td class="lntd">
 <pre class="chroma"><code class="language-markdown" data-lang="markdown">$$
 \mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
-\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
-\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\
-\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\
+\mathbf{i} <span class="err">&amp;</span> \mathbf{j} <span class="err">&amp;</span> \mathbf{k} \\
+\frac{\partial X}{\partial u} <span class="err">&amp;</span>  \frac{\partial Y}{\partial u} <span class="err">&amp;</span> 0 \\
+\frac{\partial X}{\partial v} <span class="err">&amp;</span>  \frac{\partial Y}{\partial v} <span class="err">&amp;</span> 0 \\
 \end{vmatrix}
 $$
 </code></pre></td></tr></table>
@@ -590,7 +576,7 @@ $$
 | <span class="gs">**Strong**</span>        | <span class="sb">`**Strong**`</span>        | <span class="sb">`&lt;strong&gt;&lt;/strong&gt;`</span> |
 | <span class="sb">`code`</span>            | ``code``            | <span class="sb">`&lt;code&gt;&lt;/code&gt;`</span>      |
 | <span class="gd">~~Strikethrough~~</span> | <span class="sb">`~~Strikethrough~~`</span> | <span class="sb">`&lt;del&gt;&lt;/del`</span>         |
-| &lt;u&gt;Underline&lt;/u&gt;  | <span class="sb">`&lt;u&gt;underline&lt;/u&gt;`</span>  | <span class="sb">`&lt;u&gt;&lt;/u&gt;`</span>            |
+| <span class="p">&lt;</span><span class="nt">u</span><span class="p">&gt;</span>Underline<span class="p">&lt;/</span><span class="nt">u</span><span class="p">&gt;</span>  | <span class="sb">`&lt;u&gt;underline&lt;/u&gt;`</span>  | <span class="sb">`&lt;u&gt;&lt;/u&gt;`</span>            |
 </code></pre></td></tr></table>
 </div>
 </div><table>
@@ -933,7 +919,6 @@ And then define the link:
    
 </div>
 
-
 <div class="copyright">
   <span class="power-by">
     Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
@@ -1045,7 +1030,6 @@ And then define the link:
 
   
   
-
 </body>
 <script src="https://dvesti.github.io/site-hugo/js/search.js"></script>
 <script src="https://dvesti.github.io/site-hugo/js/mark.js"></script>
