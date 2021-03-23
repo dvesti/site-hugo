@@ -1,112 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Блог Dvesti</title>
-    <link>https://dvesti.github.io/site-hugo/categories/</link>
-    <description>Recent content in Categories on Блог Dvesti</description>
+    <title>Categories on tom0727&#39;s blog</title>
+    <link>https://dvesti.github.io/hugo/categories/</link>
+    <description>Recent content in Categories on tom0727&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru</language>
-    <lastBuildDate>Fri, 19 Jun 2020 16:01:23 +0800</lastBuildDate>
-    
-	<atom:link href="https://dvesti.github.io/site-hugo/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language>
+    <lastBuildDate>Tue, 16 Mar 2021 22:10:22 +0800</lastBuildDate><atom:link href="https://dvesti.github.io/hugo/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>nanote.ru</title>
-      <link>https://dvesti.github.io/site-hugo/categories/nanote.ru/</link>
-      <pubDate>Fri, 19 Jun 2020 16:01:23 +0800</pubDate>
+      <title>题解</title>
+      <link>https://dvesti.github.io/hugo/categories/%E9%A2%98%E8%A7%A3/</link>
+      <pubDate>Tue, 16 Mar 2021 22:10:22 +0800</pubDate>
       
-      <guid>https://dvesti.github.io/site-hugo/categories/nanote.ru/</guid>
+      <guid>https://dvesti.github.io/hugo/categories/%E9%A2%98%E8%A7%A3/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>News</title>
-      <link>https://dvesti.github.io/site-hugo/categories/news/</link>
-      <pubDate>Thu, 14 May 2020 18:05:23 +0300</pubDate>
+      <title>算法</title>
+      <link>https://dvesti.github.io/hugo/categories/%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Mon, 15 Mar 2021 20:53:14 +0800</pubDate>
       
-      <guid>https://dvesti.github.io/site-hugo/categories/news/</guid>
+      <guid>https://dvesti.github.io/hugo/categories/%E7%AE%97%E6%B3%95/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>docs</title>
-      <link>https://dvesti.github.io/site-hugo/categories/docs/</link>
-      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
+      <title>工程</title>
+      <link>https://dvesti.github.io/hugo/categories/%E5%B7%A5%E7%A8%8B/</link>
+      <pubDate>Sun, 21 Feb 2021 23:39:36 +0800</pubDate>
       
-      <guid>https://dvesti.github.io/site-hugo/categories/docs/</guid>
+      <guid>https://dvesti.github.io/hugo/categories/%E5%B7%A5%E7%A8%8B/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>index</title>
-      <link>https://dvesti.github.io/site-hugo/categories/index/</link>
-      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
+      <title>笔记</title>
+      <link>https://dvesti.github.io/hugo/categories/%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sun, 21 Feb 2021 23:39:36 +0800</pubDate>
       
-      <guid>https://dvesti.github.io/site-hugo/categories/index/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>https://dvesti.github.io/site-hugo/categories/math/</link>
-      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
-      
-      <guid>https://dvesti.github.io/site-hugo/categories/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shortcodes</title>
-      <link>https://dvesti.github.io/site-hugo/categories/shortcodes/</link>
-      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>https://dvesti.github.io/site-hugo/categories/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>https://dvesti.github.io/site-hugo/categories/english/</link>
-      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>https://dvesti.github.io/site-hugo/categories/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://dvesti.github.io/site-hugo/categories/test/</link>
-      <pubDate>Wed, 30 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>https://dvesti.github.io/site-hugo/categories/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
-      <link>https://dvesti.github.io/site-hugo/categories/development/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvesti.github.io/site-hugo/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://dvesti.github.io/site-hugo/categories/golang/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvesti.github.io/site-hugo/categories/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Syntax Highlighting</title>
-      <link>https://dvesti.github.io/site-hugo/categories/syntax-highlighting/</link>
-      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
-      
-      <guid>https://dvesti.github.io/site-hugo/categories/syntax-highlighting/</guid>
+      <guid>https://dvesti.github.io/hugo/categories/%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     
